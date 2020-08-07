@@ -11,3 +11,7 @@
 .search input{
     
 }
+.view{
+    display: flex;
+    justify-content: space-between;
+}
