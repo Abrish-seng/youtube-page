@@ -8,10 +8,28 @@
     flex-direction: row;
     justify-content:space-between;
 }
-.search input{
-    
+
+.youtube-image{
+    max-width: 100%;
+    width: 100%;
 }
 .view{
     display: flex;
+    
+}
+.img-profile{
+border-radius: 50%;
+height: 30px;
+width: 30px;
+}
+.profile{
+    display: flex;
+
+}
+.profile-subs{
+    display: flex;
     justify-content: space-between;
+}
+.simillar-pages{
+    display: flex;
 }
