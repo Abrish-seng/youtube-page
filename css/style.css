@@ -1,132 +1,216 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-.navbar{
-    display:flex;
+
+.navbar {
+    display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-.youtube-image{
+.youtube-image {
     max-width: 100%;
     max-width: 100%;
     margin-bottom: 20px;
 }
-.main-page h3{
+
+.main-page h3 {
     margin-left: 20px;
     text-transform: capitalize;
 }
-.view{
+
+.view {
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid #eee;
     margin-left: 20px;
 }
-.likes{
+
+.likes {
     display: flex;
 }
-.likes button{
+
+.likes button {
     margin-left: 10px;
     border: hidden;
     color: #696969;
-    
 }
-.like-btn{
+
+.like-btn {
     border-bottom: 1px solid black;
 }
-.likes a{
+
+.likes a {
     text-decoration: none;
     margin-left: 10px;
     color: #696969;
 }
-.img-profile{
-border-radius: 50%;
-height: 30px;
-width: 30px;
-margin-right: 20px;
+
+.img-profile {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
 }
-.detail{
+
+.detail {
     margin: 20px 20px;
     border-bottom: 3px solid #eee;
 }
-.profile{
-    display: flex;
-text-decoration: none;
 
+.profile {
+    display: flex;
+    text-decoration: none;
 }
-.profile h4{
+
+.profile h4 {
     color: black;
 }
-.profile p{
+
+.profile p {
     color: #696969;
 }
-.profile-subs{
+
+.profile-subs {
     display: flex;
     justify-content: space-between;
 }
-.lead{
+
+.lead {
     margin-left: 50px;
     text-align: justify;
 }
-.subscribe{
+
+.subscribe {
     background: red;
     padding: 10px;
     width: 100px;
     text-transform: uppercase;
     border: none;
 }
-.show-more{
+
+.show-more {
     border: none;
     padding: 15px;
     margin: 10px 50px;
 }
-.simillar-pages{
+
+.simillar-pages {
     display: flex;
 }
-#about-page{
+
+#about-page {
     margin-left: 40px;
 }
-.simillar-pages a{
+
+.simillar-pages a {
     text-decoration: none;
     margin-left: 20px;
+    margin-top: 10px;
 }
-.image-1{
+
+.image-1 {
     max-width: 100%;
+    margin-top: 10px;
 }
-.public-comment{
+
+.public-comment {
     display: flex;
     margin-top: 20px;
 }
-.form-group{
+
+.form-group {
     margin-left: 20px;
     margin-top: 30px;
 }
-.comment{
+
+.comment {
     margin-left: 20px;
     width: 100%;
     border: hidden;
     border-bottom: 1px solid black;
     outline: none;
 }
-.old-comment{
+
+.old-comment {
     display: flex;
     margin: 20px 20px;
 }
-.user{
-   margin-left: 20px;
+
+.user {
+    margin-left: 20px;
 }
-#like{
+
+#like {
     margin-left: 70px;
 }
-.replay{
+
+.replay {
     border: none;
     margin-left: 30px;
 }
-@media(min-width:344px){
-    .youtube-image{
-        width: 95%;
+
+@media(min-width:344px) {
+    .youtube-main {
         align-items: center;
+        text-align: center;
+    }
+    .youtube-image {
+        max-width: 95%;
+    }
+}
+
+@media(min-width:670px) {
+    .youtube-main {
+        align-items: center;
+        text-align: center;
+    }
+    .youtube-image {
+        max-width: 90%;
+    }
+}
+
+@media(min-width:700px) {
+    .youtube-main {
+        align-items: center;
+        text-align: center;
+    }
+    .youtube-image {
+        max-width: 85%;
+    }
+}
+
+@media(min-width:750px) {
+    .youtube-main {
+        align-items: center;
+        text-align: center;
+    }
+    .youtube-image {
+        max-width: 80%;
+    }
+}
+
+@media(min-width:850px) {
+    .youtube-main {
+        align-items: center;
+        text-align: center;
+    }
+    .youtube-image {
+        max-width: 75%;
+    }
+}
+
+@media(min-width:1018px) {
+    .main {
+        display: grid;
+        grid-template-columns: 60% 40%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .youtube-image {
+        max-width: 90%;
+>>>>>>> 3196dd459548bc96370e57c15d9de651264ad99c
     }
 }
