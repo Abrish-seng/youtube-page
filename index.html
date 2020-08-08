@@ -30,45 +30,76 @@
         </div>
     </nav>
     <section>
-        <div>
+        <div class="main-page">
 <img src="./img/Screenshot (19).png" alt="" class="youtube-image">
 <h3>contributing to open source part I: the easy way</h3>
 <div class="view">
     <p>58,917 views</p>
-    <div>
-        <span><i class="fas fa-thumbs-up"></i>436</span>
-        <span><i class="fas fa-thumbs-down"></i>19</span>
+   <div class="likes">
+    <div class="like-btn">
+        <button><i class="fas fa-thumbs-up"></i>436</button>
+        <button><i class="fas fa-thumbs-down"></i>19</button>
     </div>
      <a href="#"><i class="fas fa-share"></i>share</a>
      <a href="#"><i class="fa fa-outdent" aria-hidden="true"></i>save</a>
      <a href="#"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
 </div>
-<div>
+   </div>
+<div class="detail">
     <div class="profile-subs">
         <a href="#" class="profile">
             <img src="./img/profile2.jpg" alt="" class="img-profile">
            <span>
-            <h4>The odins project</h4>
+            <h4>The odin project</h4>
             <p>1.01K subscribers</p>
            </span>
         </a>
-        <button>subscribe</button>
+        <button class="subscribe">subscribe</button>
     </div>
-    <p></p>
-    <button>SHOW MORE</button>
+    <p class="lead">How do you contribute to open source?  In this video, 
+        I'll describe the easiest way to make a simple contribution
+         to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of </p>
+    <button class="show-more">SHOW MORE</button>
 </div>
+        </div>
+        <div class="auto">
+
         </div>
    <div class="simillar-pages">
 <div>
     <a href="#"><img src="./img/image.png" alt="" class="image-1"></a>
 </div>
-<a href="#">
-    <h3>How To Think Like A Programmer</h3>
-    <p>Andy strekowitz</p>
-    <p>532,861 view .6 months ago</p>
+<a href="#" id="about-page">
+    <h3 style="color: black;">How To Think Like A Programmer</h3>
+    <p style="color: #696969;">Andy strekowitz</p>
+    <p style="color: #696969;">532,861 view .6 months ago</p>
 </a>
    </div>
     </section>
+    <article>
+        <form action="" class="form-group">
+            <span>15 comments</span>
+            <div class="public-comment">
+                <img src="./img/profile2.jpg" width="40" height="45" alt="" style="border-radius: 50%;">
+                <input type="text" placeholder="Add a public comment" class="comment">
+            </div>
+        </form>
+    </article>
+    <article>
+        <div class="old-comment">
+            <img src="./img/image-1.jpg" width="40" height="40" style="border-radius: 50%;" alt="">
+            <div class="user">
+                <a href="#" style="text-decoration:none ;color: black;">
+                    <h4>Wing N. <span style="color: #696969;">2 years ago (edited)</span></h4>
+                </a>
+                <p>"use your powers for good" haha
+                    thank you for the video.</p>
+            </div>
+        </div>
+           <button class="replay" id="like"><i class="fas fa-thumbs-up"></i>3</button>
+            <button class="replay"><i class="fas fa-thumbs-down"></i></button>
+            <button class="replay">REPLAY</button>
+    </article>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
 </body>
 </html>
