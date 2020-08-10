@@ -5,9 +5,8 @@
 }
 
 .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3,20% 60% 20%);
     margin: 20px 20px;
 }
 .navbar ul li{
@@ -15,6 +14,15 @@
 }
 .navbar ul li a{
     text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 25px;
+}
+.search{
+    min-width: 200px;
+    width: 70%;
+    padding: 8px;
 }
 .youtube-info {
     display: flex;
@@ -110,7 +118,11 @@
     padding: 15px;
     margin: 10px 50px;
 }
-
+.next{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 20px;
+}
 .simillar-pages {
     display: flex;
 }
@@ -164,6 +176,7 @@
 .replay {
     border: none;
     margin-left: 30px;
+    color: #696969;
 }
 
 @media(min-width:344px) {
@@ -219,7 +232,7 @@
 @media(min-width:1018px) {
     .main {
         display: grid;
-        grid-template-columns: 60% 40%;
+        grid-template-columns: repeat(2.1fr);
         margin-left: 50px;
         margin-top: 20px;
     }
@@ -227,6 +240,13 @@
         max-width: 95%;
 
     }
+    .ab{
+        grid-row: 2;
+    }
+.you-list{
+    grid-row: 1/4;
+    grid-column: 2;
+}
     .comment{
         width: 55%;
     }
