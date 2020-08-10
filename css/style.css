@@ -232,7 +232,7 @@
 @media(min-width:1018px) {
     .main {
         display: grid;
-        grid-template-columns: repeat(2.1fr);
+        grid-template-columns: repeat(2,60% 40%);
         margin-left: 50px;
         margin-top: 20px;
     }
@@ -248,6 +248,6 @@
     grid-column: 2;
 }
     .comment{
-        width: 55%;
+        width: 85%;
     }
 }
